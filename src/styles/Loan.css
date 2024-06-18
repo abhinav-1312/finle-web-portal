@@ -1,0 +1,28 @@
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+.heading-t{
+    background-color: #010438;
+    color: white !important;
+    padding: 1.5% 3% ;
+    border-radius: 7px;
+}
+.main-loan{
+    margin: auto;
+    padding: 2% 6%;
+    background-color: rgb(#F5F5F5);
+    margin: 0 2% ;
+}
+.img-logo{
+
+    width: 20%;
+}
+
+@media screen and (max-width:750px) {
+    .img-logo{
+        width: 70%;
+        align-items: center;
+        padding: 2%;
+    }
+}

@@ -1,0 +1,220 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+/* color : #F37021 */
+/* box-shadow: 0px 4px 4px rgba(244, 230, 230, 0.25); */
+
+
+#Herosection {
+  width: 100%;
+  height: 100%;
+  /* background-color: #010438; */
+  background: linear-gradient(to top, #010438,#F37021);
+  /* background-image: url(../assets/images/Homepage.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+  overflow: hidden;
+}
+
+.Heroheading {
+  padding: 2rem 4rem 0 2rem ;
+  margin-bottom: -5rem !important;
+  padding-bottom: -5rem !important;
+  color: #fff;
+  /* font-family: "Rasa", sans-serif; */
+  font-family: "Beltram-Regular", sans-serif;
+  width: auto;
+  /* font-weight:800 !important; */
+  /* position: absolute; */
+}
+.herobody {
+  display: flex;
+  /* position: relative; */
+  /* flex-wrap: wrap-reverse; */
+  /* height: 500px; */
+}
+.herocardline {
+  position: relative;
+  padding-top: 9rem;
+}
+.heroCardBody {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.herocard {
+  z-index: 222;
+  width: 70%;
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(244, 230, 230, 0.25);
+  border-radius: 14px;
+  margin: 1rem;
+
+}
+.herocard h4{
+  color: #F37021;
+}
+.herocard p{
+  color: #010438;
+  /* font-weight: 500; */
+}
+.heroLine {
+  position: absolute;
+  width: 40%;
+  height: 4px;
+  background: #fff;
+}
+.heroLineOne {
+  top: 50%;
+  left: 75%;
+}
+.heroLinetwo {
+  top: 50%;
+  left: 85%;
+}
+.heroLinethree {
+  top: 50%;
+  left: 90%;
+}
+.herocardone {
+  position: relative;
+  left: 10%;
+}
+.herocardtwo {
+  position: relative;
+  left: 20%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+.herocardthree {
+  position: relative;
+  left: 30%;
+}
+.imgdiv {
+  position: relative;
+  margin: 2rem 0;
+  left: 30%;
+  /* top: -20%; */
+  /* margin-top: ; */
+  width: 80%;
+  height: 90%;
+  filter: drop-shadow(7px -38px 28px rgba(162, 157, 176, 0.23));
+  transform: rotate(-20.69deg);
+}
+
+.heroright {
+  text-align: left;
+  /* margin-top: -10rem; */
+  margin-left: 12rem;
+  color: #fff;
+  width: 30%;
+}
+.heroright h1 {
+  font-size: 45px;
+}
+.heroright Button {
+  margin-left: 0;
+  font-size: 15px;
+}
+.heroright Button span {
+  font-size: 11.6px;
+}
+
+@media (max-width: 1200px) {
+  #Herosection {
+    padding: 1rem;
+  }
+  .Heroheading {
+    width: 50%;
+    font-family: "Beltram-Regular", sans-serif;
+    font-size: 1rem auto !important;
+    font-size: 24px;
+    /* font-weight: 600 !important; */
+    padding: 0;
+  }
+  /* .herobody {
+    flex-direction: column;
+  } */
+  .herocard {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .herocardone,
+  .herocardtwo,
+  .herocardthree {
+    position: static;
+  }
+  .heroLine {
+    display: none;
+  }
+  .imgdiv {
+    /* margin: 2rem auto; */
+    width: 100%;
+    height: 100%;
+    transform: none;
+  }
+
+  .heroright {
+    width: 50%;
+    margin-top: 2rem;
+    /* text-align: left; */
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #Herosection {
+    padding: 1rem;
+  }
+
+  .herocardline {
+    /* position: relative; */
+    padding-top: 0;
+  }
+  .Heroheading {
+    width: 100%;
+    position: static;
+    font-size: 24px;
+    padding: 0;
+  }
+  .herobody {
+    flex-direction: column;
+  }
+  .herocard {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .herocardone,
+  .herocardtwo,
+  .herocardthree {
+    position: static;
+  }
+  .heroLine {
+    display: none;
+  }
+  .imgdiv {
+    /* margin: 2rem auto; */
+    width: 50%;
+    height: 40%;
+    transform: none;
+  }
+
+  .heroright {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 0;
+  }
+  .heroright h3,
+  .heroright p {
+    text-align: center;
+  }
+}

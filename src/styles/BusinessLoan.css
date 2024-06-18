@@ -1,0 +1,159 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #3100BE !important;
+color: #104C92 !important;
+color: #3100BE !important; */
+
+
+.business-loan {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.business-loan-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Business Loan header */
+.business-loan-header {
+  text-align: center;
+}
+
+.business-loan-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.business-loan-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.business-loan-cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.business-loan-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /* padding: 20px; */
+  height: 100%;
+}
+
+.business-loan-card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.business-loan-card h5 {
+  margin-bottom: 10px;
+}
+
+.business-loan-card p {
+  margin-bottom: 20px;
+}
+
+.business-loan-card ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.business-loan-card li {
+  list-style: disc;
+}
+
+.business-loan-apply-btn {
+  margin-top: 20px;
+  background-color: #3100BE !important;
+}
+
+.business-loan-card .card-header {
+  background-color: #3100BE;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 5px 5px 0 0;
+  padding: 1rem;
+
+}
+/* Business Loan requirements section */
+.business-loan-requirements {
+  margin-top: 5rem;
+}
+
+.business-loan-requirements-title {
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.business-loan-requirements ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.business-loan-requirements li {
+  margin-bottom: 0.5rem;
+}
+
+/* Business Loan details section */
+.business-loan-details {
+  margin: 5rem;
+}
+
+.business-loan-details-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.business-loan-details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.business-loan-details li {
+  margin-bottom: 0.5rem;
+}
+
+.business-loan-requirements,
+.business-loan-details {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.business-loan-requirements-title,
+.business-loan-details-title {
+  color: #333;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+}
+
+.business-loan-requirements ul,
+.business-loan-details ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.business-loan-requirements ul li,
+.business-loan-details ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+
+

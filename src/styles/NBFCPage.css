@@ -1,0 +1,98 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+
+.about-nbfc-container {
+  max-width: 100%;
+  background:#f5f5f5 ;
+  margin: 0 auto;
+  padding: 5% !important;
+  margin: 3% ;
+}
+
+.about-nbfc-container h1 {
+  font-size: 36px;
+  /* font-weight: bold; */
+  text-align: center;
+  margin-bottom: 20px;
+  color: #F37021;
+}
+
+.about-nbfc-container h2 {
+  font-size: 28px;
+  /* font-weight: bold; */
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.about-nbfc-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #010438;
+}
+h5{
+  color: #F37021 !important; 
+}
+
+.nbfc-card {
+  margin-top: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nbfc-card .card-body {
+  padding: 30px;
+}
+
+.nbfc-card .card-title {
+  font-size: 24px;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+}
+
+.nbfc-card .card-text {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.nbfc-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nbfc-card ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.nbfc-card ul li:before {
+  content: "•";
+  margin-right: 10px;
+}
+
+.btn-primary {
+  border-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+

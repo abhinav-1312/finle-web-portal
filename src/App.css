@@ -1,0 +1,497 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+/* for orange */
+/* color : #F37021 */
+/* font-family: "Beltram-Regular", sans-serif; */
+/* Top Header */
+body{
+
+  transition-duration: 0.5 !important;
+  transition-delay: 0.25 !important;
+  color: #010438;
+}
+.topheader {
+  position: sticky !important;
+  background-color: #010438;
+  color: #fff !important;
+  top: 0px;
+  z-index: 999;
+  height: 4rem;
+}
+
+.FirstNavReg {
+  color: #fff !important;
+  font-size: medium;
+  text-decoration: none;
+  display: none;
+}
+
+.Nav-login-button {
+  background: #fff !important;
+  color: #010438 !important;
+  /* font-weight: bold !important; */
+}
+
+.Nav-login {
+  text-decoration: none;
+  color: #010438 !important;
+}
+
+.topNavbar {
+  gap: 1rem;
+}
+.hover-nav:hover{
+  background-color: #F37021 !important;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.Navbutton {
+  /* margin-left: 1rem; */
+
+  /* z-index: 99999999; */
+  background: #fff !important;
+  color: #010438 !important;
+  /* font-weight: bold !important; */
+}
+
+.Navbutton Link {
+  text-decoration: none !important;
+}
+
+.loan_btn {
+  display: none !important;
+}
+
+/* secondHeader */
+
+.secondHeader {
+  background: #fff;
+  position: sticky !important;
+  top: 64px !important;
+  z-index: 888;
+  background-color: rgb(f, f, f);
+  background-color: rgba(f, f, f, 0.1);
+  height: 5rem;
+}
+
+Link {
+  text-decoration: none !important;
+}
+
+.sec_nav_link {
+  gap: 1rem;
+  /* width: 80%; */
+}
+
+.navtopdorp {
+  color: #010438 !important;
+  font-family: "Beltram-Regular", sans-serif;  font-size: 1rem auto !important;
+  text-decoration: none !important;
+}
+
+.logo-title {
+  font-size: 2rem !important;
+  margin-left: 1rem;
+}
+.logo {
+  width: auto;
+  height: 30px;
+}
+
+/* Products  */
+
+.products {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10px;
+  /* gap: 15px; */
+  background: #010438;
+}
+
+.products h1 {
+  font-family: "Beltram-Regular", sans-serif;  font-size: 1rem auto !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #F37021;
+}
+
+.products_card {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly !important ;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 10px 0px;
+  gap: 3rem;
+}
+.product_card_div {
+  width: 28rem !important;
+}
+.hover-class:hover{
+  transform: scale(1.07);
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px 5px 10px rgba(0, 0, 0, 0.5), 5px -5px 10px rgba(0, 0, 0, 0.5);
+    /* position: absolute; */
+  border: none;
+}
+
+.products_all {
+  width: 85%;
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 1.6em;
+  line-height: 39px;
+  display: flex;
+  justify-content: right !important;
+  align-items: center;
+  text-align: center;
+  color: #010438;
+}
+
+.products_body {
+  font-family: "Beltram-Regular", sans-serif;
+  /* font-weight: 600; */
+  line-height: 124%;
+  color:#010438;
+  opacity: 0.75;
+}
+.product-section-main{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 4rem;
+}
+.prd-img-div{
+  width: 100%;
+
+}
+.prd-img{
+  width: 100%;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #fff !important;
+
+}
+.prd-text{
+  color: white !important;
+  margin: 4%;
+}
+.cart-head{
+  color: #F37021 !important;
+  text-align: center;
+}
+.date-time{
+  color: #F37021 !important;
+  /* font-weight: 700; */
+}
+
+.products_body span {
+  color: #010438;
+}
+
+/* testimonial image */
+.Testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 60px;
+  gap: 15px;
+  background: white;
+}
+
+.Testimonial h1 {
+  /* width: 35rem; */
+  font-family: "Beltram-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  /* line-height: 45px; */
+  text-align: center;
+  color:#F37021;
+  margin-top: 1em;
+}
+
+.testimonal_subheading {
+  width: 596px;
+  height: 72px;
+  font-family: "Beltram-Regular", sans-serif;
+  font-style: normal;
+  /* font-weight: 500; */
+  line-height: 27px;
+  text-align: center;
+  color:#010438 !important;
+}
+
+.Testimonial-slide {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+.testimonal-slide-main{
+  margin: 3% !important;
+}
+.Testimonial-slide img {
+  width: 200px;
+  height: 240px;
+  border-radius: 10px;
+}
+.testimonal-body{
+  background-color: white;
+  color:#010438 !important;
+  /* font-weight: 500; */
+}
+.testi-name{
+  color: #F37021 !important;
+  font-size:1.2em !important;
+  font-weight: 400 !important;
+  text-align: center;
+}
+.carousel {
+  width: 100%;
+}
+
+/* .carousel-control-prev,.carousel-control-next {
+  /* margin: auto;
+  width: 50px !important;
+  height: 50px;
+  background: #010438 !important;
+  opacity: 1 !important;
+  border-radius: 100%; */
+/* } */ 
+
+.carousel-indicators {
+  display: none !important;
+}
+
+/* OurPartners */
+
+.OurPartners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 5rem;
+}
+
+.OurPartners h1 {
+  margin: 1rem;
+  font-family: "Beltram-Regular", sans-serif;  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 45px;
+  text-align: center;
+  color:#F37021;
+}
+
+.partner_logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.partner_logo img {
+  margin: 2rem;
+  width: 200px;
+}
+
+/* FAQ */
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 5rem;
+}
+
+.FAQ h1 {
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 45px;
+  text-align: center;
+  color:#F37021;
+  font-family: "Beltram-Regular", sans-serif;
+}
+
+.faqbody {
+  width: 90%;
+}
+
+/* Contact Us  */
+
+.ContactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 5rem;
+}
+
+.ContactUs h1 {
+  font-family: "Beltram-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size:2em;
+  /* line-height: 45px; */
+  text-align: left;
+  color:#F37021;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+#button-addon2{
+  background-color: #F37021;
+}
+.button-addon2{
+  background-color: #F37021 !important;
+
+}
+.input-place::placeholder{
+  color: #010438 !important;
+}
+
+.Contact-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  width: 90%;
+  background:#010438;
+  padding: 2rem;
+  color: white;
+  /* font-weight: 700; */
+}
+.contact-email{
+  width: 55% !important;
+}
+.formGroup {
+  margin: 0.4rem;
+}
+
+/* Footer  */
+
+/* store Button */
+.storeBtn {
+  display: flex;
+  gap: 2rem;
+}
+.storeIcon {
+  background: #fff;
+  width: fit-content; 
+  padding: 0px 10px;
+  border-radius: 8px;
+}
+
+.Faq-qu{
+  /* background-color: #010438 !important; */
+  color:#010438 !important;
+}
+.Faq-ans{
+  color: #F37021;
+}
+@media (max-width: 767px) {
+  .topNavbar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  .navtopdorp {
+    margin: 0 1rem !important;
+  }
+  .Navbutton {
+    margin: 0.5rem;
+  }
+  .loan_btn1 {
+    display: none !important;
+  }
+  .loan_btn {
+    display: inline !important;
+  }
+
+  .testimonal_subheading {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .slider_offer_title {
+    font-size: 20px;
+  }
+  .secondnav-space {
+    margin: 0px;
+  }
+
+  .Contact-form {
+    width: 100%;
+  }
+  .contact-email{
+    width: 85% !important;
+    margin-top: 5%;
+  }
+
+  .product-section-main{
+    display: block;
+    flex-direction: column;
+    /* font-display: none; */
+  }
+
+  .prd-img{
+    height: 200px;
+  }
+  .product_card_div {
+    width: 100% !important;
+  }
+  .banner {
+    margin: 0 !important;
+  }
+  .feature_banner {
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+  .products,
+  .BestOffer,
+  .Testimonial,
+  .Team,
+  .OurPartners,
+  .NewsBlog,
+  .FAQ,
+  .ContactUs {
+    padding: 2rem 1rem;
+  }
+
+  .hover-class:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px 5px 10px rgba(0, 0, 0, 0.5), 5px -5px 10px rgba(0, 0, 0, 0.5);
+      /* position: absolute; */
+  }
+  .testimonal-slide-main{
+    margin-top: 50% !important;
+  }
+}

@@ -1,0 +1,22 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+body {
+  margin: 0;
+  /* font-family: 'Rasa', serif; */
+  /* color: #3100BE !important; */
+  font-family: "Beltram-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Rasa', serif;
+}
+
+.react-tel-input .form-control {
+  padding-left: 3rem !important;
+}

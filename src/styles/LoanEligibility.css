@@ -1,0 +1,44 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+.loan-eligibility-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.loan-eligibility-container h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.loan-eligibility-container form {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loan-eligibility-container form .form-group {
+  margin-bottom: 20px;
+}
+
+.loan-eligibility-container form button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.loan-eligibility-container form button:hover {
+  background-color: #0069d9;
+  transform: translateY(-2px);
+}

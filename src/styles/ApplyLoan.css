@@ -1,0 +1,110 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+.apply-loan{
+  background: rgb(229, 239, 241);
+}
+
+.apply-loan-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Apply loan section */
+.apply-loan-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c3decb;;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 30px;
+  transition: box-shadow 0.3s ease;
+}
+
+.apply-loan-section:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.apply-loan-text {
+  padding: 30px;
+  width: 500px;
+}
+
+.apply-loan-text h2 {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  /* font-weight: 600; */
+  /* color: #006687; */
+}
+
+.apply-loan-text p {
+  margin-bottom: 20px;
+  /* font-weight: 400; */
+}
+
+.apply-loan-text ol {
+  margin-left: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.apply-loan-text ol li {
+  margin-bottom: 10px;
+  /* font-weight: 500; */
+}
+
+.apply-loan-text button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.apply-loan-text button:hover {
+  background-color: #0069d9;
+  transform: translateY(-2px);
+}
+
+/* Apply loan image */
+.apply-loan-image {
+  text-align: center;
+
+  /* background-color: #f8f9fa; */
+  /* transition: background-color 0.3s ease; */
+}
+
+.apply-button {
+  /* position: static; */
+  text-align: left;
+  margin-top: 2rem;
+  /* margin-left: 12rem; */
+  width: 500px;
+}
+
+.apply-button h1 {
+  font-size: 45px;
+}
+
+.apply-button Button {
+  /* margin: 1rem; */
+  margin-left: 0;
+  font-size: 15px;
+}
+
+.apply-button Button span {
+  font-size: 11.6px;
+}
+
+.mobile-img {
+  max-width: 100%;
+  height: 700px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}

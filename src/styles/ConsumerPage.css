@@ -1,0 +1,78 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+
+/* Sidebar styles */
+.consumer-sidebar {
+  padding-top: 2rem;
+  background-color: #f8f9fa !important;
+  height: 100vh;
+}
+
+.consumer-sidebar-link {
+  font-size: 18px;
+  color: #495057 !important;
+  font-weight: 600;
+  padding: 10px 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.consumer-sidebar-link:hover {
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+
+.consumer-sidebar-link.active {
+  background-color: white;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  border-left: 5px solid #010438;
+  transition: all 0.2s ease-in-out;
+}
+
+.consumer-sidebar-logout {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.consumer-sidebar-logout:hover,
+.consumer-sidebar-logout:focus {
+  background-color: #c82333 !important;
+}
+
+/* Page content styles */
+.consumer-page-content {
+  background-color: white;
+  min-height: 100vh;
+  padding: 0px !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar styles */
+.consumer-navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+  color: #010438 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.consumer-navbar-brand:hover {
+  color: #004460 !important;
+}
+

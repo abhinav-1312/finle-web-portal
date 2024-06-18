@@ -1,0 +1,103 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+
+.branches-container {
+  margin-top: 50px;
+}
+
+.branches-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.branches-subheader {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.branches-card {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.branches-card .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.branches-card .card-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.branches-card .card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.branches-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.branches-card .btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.branches-table {
+  margin-bottom: 40px;
+}
+
+.branches-table th {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.branches-table td {
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.branches-image {
+  margin-bottom: 40px;
+}
+
+.branches-form {
+  margin-bottom: 40px;
+}
+
+.branches-form .form-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.branches-form .form-control {
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.branches-form .form-check-label {
+  font-size: 16px;
+}
+
+.branches-form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.branches-form .btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

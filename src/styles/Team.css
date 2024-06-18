@@ -1,0 +1,150 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+.Team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 160px;
+  gap: 15px;
+  background: #010438;
+}
+.team-sub-head{
+  color: white !important;
+  width: 596px;
+  height: 72px;
+  font-family: "Beltram-Regular", sans-serif;
+  font-style: normal;
+  /* font-weight: 600; */
+  line-height: 27px;
+  text-align: center;
+}
+
+.Team h1 {
+  font-family: "Beltram-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 45px;
+  text-align: center;
+  color:#F37021;
+}
+
+.team_profile {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ; 
+  place-items: center ;
+ 
+}
+
+.leadership-team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.team-member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-member-name {
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+  color: white !important;
+}
+
+.team-member-title {
+  margin-bottom: 20px;
+  color: white;
+  /* font-weight: bold; */
+}
+
+
+
+.teamtrycard {
+  /* width: 230px; */
+  height: 100%;
+  /* perspective: 800px; */
+  /* padding: 3rem; */
+
+  place-items: center;
+}
+
+.teamtrycard__inner {
+  /* position: relative; */
+  /* height: 20rem; */
+  width: 100%;
+  display: grid;
+  place-items: center;
+
+  /* margin: 2rem; */
+  /* transform-style: preserve-3d; */
+  /* transition: transform 0.5s; */
+}
+
+/* .teamtrycard:hover .teamtrycard__inner {
+  transform: rotateY(180deg);
+} */
+
+.teamtrycard__body {
+  /* position: absolute; */
+  padding: 5px;
+  /* margin: 2rem !important; */
+  inset: 0;
+  display: grid;
+  place-items: center;
+  /* backface-visibility: hidden; */
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.teamtrycard__body--front {
+  width: 98%;
+  margin: 2rem 2rem 0rem 2rem;
+  /* background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #1590b9 47%,
+    #006687 100%
+  ); */
+  background-color: #F37021;
+}
+
+.teamtrycard__body--back {
+  margin: 1rem 2rem 0rem 2rem;
+  /* transform: rotateY(180deg); */
+  overflow: scroll;
+  text-align: justify;
+  padding: 1.5rem;
+  width: 98%;
+  height: 20rem;
+  background-color: white;
+  color: #010438;
+  /* font-weight: 600; */
+}
+
+
+@media (max-width: 767px) {
+  .Team{
+    padding: 10px;
+  }
+  .team_profile {
+     grid-template-columns:  1fr;
+  }
+  .team-sub-head{
+    width: 300px;
+    margin-bottom: 4rem;
+  }
+
+}

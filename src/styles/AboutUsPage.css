@@ -1,0 +1,114 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+
+.about-us {
+  background: #f8f9fa;
+  /* font-family: "beltram-regular", sans-serif,; */
+}
+
+.about-us-page {
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "beltram-regular", sans-serif,;
+
+}
+
+.company-info {
+  text-align: center;
+}
+
+.company-name {
+  /* font-weight: bold; */
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.company-tagline {
+  /* font-style: italic;
+  color: #888;
+  font-size: 1.3rem; */
+  font-family: "Beltram-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color:#010438;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.card-column {
+  display: flex;
+  justify-content: center;
+}
+
+.about-card {
+  width: 100%;
+  border: none !important;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.about-card {
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.about-us-title  {
+  text-align: center;
+}
+
+.about-card .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #F37021;
+}
+
+.about-card .card-text {
+  /* color: #5a5a5a; */
+  color: #010438;
+  margin-bottom: 1.2rem;
+}
+
+
+
+.contact-card {
+  width: 100%;
+  border: none !important;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contact-btn {
+  margin-top: 20px;
+}
+
+.awards-card {
+  width: 100%;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.last-body-head{
+  color: #F37021 !important;
+}
+.last-body{
+   color: #010438 !important;
+}
+.contact-btn{
+  background-color: #F37021 !important;
+  color: white !important;
+}

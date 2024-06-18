@@ -1,0 +1,64 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+/* color: #3100BE !important;
+color: #104C92 !important;
+color: #3100BE !important; */
+
+
+.best-offers-slider-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.best-offers-slider {
+  width: 100%;
+}
+
+.best-offers-slider .carousel-item {
+  height: 500px;
+
+}
+.best-offers-slider .carousel-item img{
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.best-offers-slider .carousel-caption {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 15%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.best-offers-slider .carousel-caption h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.best-offers-slider .carousel-caption p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.best-offers-slider .carousel-caption button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #3100BE;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.best-offers-slider .carousel-caption button:hover {
+  background-color: #0069d9;
+}

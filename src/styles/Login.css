@@ -1,0 +1,198 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+.LoginPage {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 70vh;
+  width: 80%;
+  padding: 1rem;
+  /* background-color: #f4f4f4; */
+  margin: auto;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1); */
+
+  font-family: Arial, sans-serif;
+}
+
+.LoginPageBody {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 70vh;
+  width: 80%;
+}
+
+.login-image {
+  max-width: 500px;
+  height: auto;
+  height: max-content;
+  /* display: block; */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  /* margin: 0 auto; */
+}
+
+.Login-form {
+  width: 100%;
+  max-width: 500px;
+  min-height: 500px;
+  height: fit-content;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Login-form-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 28px;
+  /* font-weight: bolder; */
+  margin-top: 3rem;
+  color: #333;
+}
+
+.Login-form-title h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.Login-form-title p {
+  font-size: 1rem;
+}
+
+.Login-tabs {
+  margin-top: 2rem;
+}
+
+.login-mobile-otp,
+.login-userid {
+  margin-top: 1.5rem;
+}
+
+.login-mobile-otp {
+  margin-top: 3rem;
+}
+
+.login-userid {
+  margin-top: 3rem;
+}
+
+.Login-tabs {
+  /* margin-top: 3rem; */
+  border: none !important;
+}
+
+.Login-tabs .nav-link {
+  background-color: #fff;
+  color: #000;
+  /* border: none; */
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Login-tabs .nav-link.active {
+  background-color: #010438 !important;
+  color: #fff !important;
+  border-color: transparent;
+}
+
+.Login-tabs .nav-link:hover {
+  background-color: #010438;
+  color: #fff;
+  border-color: transparent;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  /* font-weight: bold; */
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+.login-button {
+  margin-top: 1.5rem;
+  width: 100%;
+  background: #010438 !important;
+  border-color: #010438;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #010438;
+  border-color: #0062cc;
+}
+
+.login-forget,
+.login-register {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.login-forget a,
+.login-register a {
+  color: #010438;
+  text-decoration: none;
+}
+
+.login-forget a:hover,
+.login-register a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .LoginPage {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .Login-Home{
+    margin: 1rem;
+  }
+  .Login {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .LoginPageBody {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .login-image {
+    display: none;
+  }
+}

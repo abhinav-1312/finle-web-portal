@@ -1,0 +1,42 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+.account-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.account-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.account-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.account-card {
+  width: 30%;
+  margin-bottom: 2rem;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.account-card-text {
+  font-size: 1.2rem;
+}
+
+
+.Acoountsection{
+  margin: 5rem !important;
+}

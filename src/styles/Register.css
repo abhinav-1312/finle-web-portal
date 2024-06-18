@@ -1,0 +1,186 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+.register-page {
+  background-color: #f4f4f4;
+  padding: 4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  width: 80%;
+  /* padding: 1rem; */
+  height: 100%;
+  margin: auto;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1); */
+  font-family: Arial, sans-serif;
+}
+
+.regis-img-logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.register-image img {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid green; */
+  padding: 4rem;
+  /* margin-top: -4rem; */
+  /* margin-bottom: -10rem; */
+}
+
+.register-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  min-height: 70vh;
+}
+
+.stepper-form-container {
+  width: 100%;
+  max-width: 500px;
+  min-height: 500px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-body-title {
+  text-align: center;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-weight: bolder; */
+  margin: 7rem 7rem 1rem 1rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.register-body-title h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  /* margin-bottom: 0.5rem; */
+}
+
+.register-body-title p {
+  font-size: 1rem;
+}
+
+.register-form-title {
+  text-align: center;
+  /* margin-right: 2rem; */
+  font-size: 28px;
+  /* font-weight: bolder; */
+  color:#010438;
+}
+
+.stepper-form-container form {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.stepper-form-container form label {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.stepper-form-container form .form-group {
+  border: 1px solid green !important;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.stepper-form-container form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.stepper-form-container form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.stepper-form-container form button {
+  margin-right: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 16px;
+  padding: 0.7rem 2rem;
+}
+
+.stepper-form-container .progress {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.stepper-form-container .progress-bar {
+  background-color: #010438;
+  border-radius: 5px;
+}
+
+.stepper-form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .register-page {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .Register-Home {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .register {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* flex-direction: row; */
+  }
+  .regis-img-logo {
+    display: inline;
+  }
+
+  .register-body {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .register-image {
+    display: none;
+  }
+  .register-body-title,
+  .stepper-form-container {
+    margin: 1rem;
+  }
+  .register-body-title h1 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    /* margin-bottom: 0.5rem; */
+  }
+}

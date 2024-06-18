@@ -1,0 +1,83 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+
+.profileSection-container {
+  margin-top: 50px;
+}
+
+.profileSection-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.profileSection-image-container {
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileSection-image {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profileSection-image-label {
+  /* position: absolute; */
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.profileSection-image-input {
+  display: block;
+  margin-top: 10px;
+}
+
+.profileSection-first-name-input,
+.profileSection-last-name-input,
+.profileSection-category-input,
+.profileSection-address-input,
+.profileSection-email-id-input,
+.profileSection-password-input,
+.profileSection-confirm-password-input {
+  margin-bottom: 20px;
+}
+
+.profileSection-submit-button {
+  margin-right: 10px;
+}
+
+.profileSection-cancel-button {
+  margin-left: 10px;
+}
+
+.profileSection-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profileSection-category,
+.profileSection-address,
+.profileSection-email {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profileSection-edit-button {
+  margin-top: 20px;
+}
+
+.profileSection-slider{
+  margin-top: 4rem !important;
+}

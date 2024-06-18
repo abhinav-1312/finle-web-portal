@@ -1,0 +1,104 @@
+/* ----------------------------------------------------------------------------
+Information Contained Herein is Proprietary and Confidential. copyright notice in all copies, 
+acknowledging that the code is provided without warranties, and strictly prohibiting unauthorized 
+sharing or distribution without prior written consent from the copyright holder<DKG Labs Pvt. Ltd>
+------------------------------------------------------------------------------ */
+
+/* color: #010438 !important;
+color: #104C92 !important;
+color: #010438 !important; */
+
+/* @media screen and (min-width:786px) {
+  .sec_nav_link{
+  }
+} */
+
+.product-sub{
+  display: none;
+}
+/* .product-main{
+
+} */
+.product-main:hover .product-sub{
+  display: block;
+  background-color: #F8F9FA;
+  position: absolute;
+  margin-left: -0.9;
+}
+.productpage {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: #f8f9fa;
+}
+
+.productpage h1 {
+  font-size: 2rem;
+  /* font-weight: 700; */
+  color: #010438 !important;
+}
+
+.productpage h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #010438;
+}
+
+.productpage p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #010438;
+}
+
+.productpage ul {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #010438;
+  list-style-type: none;
+  padding: 0;
+}
+
+.productpage li {
+  margin-bottom: 10px;
+}
+
+.productpage img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.productpage .btn-primary {
+  background-color: #010438;
+  border-color: #010438;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.productpage .btn-primary:hover {
+  background-color: #010438;
+  border-color: #80d9f6;
+}
+
+.productpage .card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.05);
+}
+
+.productpage .card-header {
+  background-color: #010438;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 5px 5px 0 0;
+}
+
+.productpage .list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+
