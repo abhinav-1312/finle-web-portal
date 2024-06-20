@@ -189,37 +189,33 @@ const StepperForm = () => {
     try {
       // const result = await confirmationResult.confirm(verificationCode);
       // console.log(result.user);
-      const apiUrl = "https://finle-api-gateway.azurewebsites.net/auth-service/login";
+      // const apiUrl = "https://finle-api-gateway.azurewebsites.net/auth-service/login";
       
-        const response = await fetch(apiUrl, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            mobileNumber: formData.mobileNumber,
-            password: null,
-            userId: null,
-          }),
-        });
+      //   const response = await fetch(apiUrl, {
+      //     method: "POST",
+      //     headers: {
+      //       "Content-Type": "application/json",
+      //     },
+      //     body: JSON.stringify({
+      //       mobileNumber: formData.mobileNumber,
+      //       password: null,
+      //       userId: null,
+      //     }),
+      //   });
 
-        console.log("Login response: ", response)
-        if (response.ok) {
+      //   console.log("Login response: ", response)
+      //   if (response.ok) {
 
-          const responseData = await response.json();
-          // const { userId, token } = responseData.responseData; 
-          // localStorage.setItem("userId", userId); 
-          // localStorage.setItem("token", token); 
-          // alert("You have successfully logged in!");
-          // navigate("/consumer-profile");
-          alert("User already registered")
-          setMobileNumber("");
-          setVerificationCode("");
-        } else {
+      //     const responseData = await response.json();
+      //     alert("User already registered")
+      //     setMobileNumber("");
+      //     setVerificationCode("");
+      //   } else {
           const confirmation = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
+          console.log("Confirmation: ", confirmation)
           setConfirmationResult(confirmation);
-          console.error(response.statusText);
-        }
+          // console.error(response.statusText);
+        // }
       } catch (error) {
         console.error(error);
         alert("An error occurred. Please try again.");
